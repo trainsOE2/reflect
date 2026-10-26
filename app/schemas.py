@@ -88,7 +88,7 @@ class Integrity(BaseModel):
   injection_suspected: bool
 
 class ModerationResponse(BaseModel):
-  listing_id: str = Field(min_length=1)
+  listing_id: str = Field(min_length=1) 
   tenant_id: str = Field(min_length=1)
   decision: Decision
   policy_version: str
