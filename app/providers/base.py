@@ -18,7 +18,7 @@ class ProviderRequest:
   user: str
   tool: ToolSpec
   max_tokens: int = 1024
-  temperatute: float = 0.0
+  temperature: float = 0.0
   timeout_s: float = 10.0
 
 @dataclass(frozen=True)
